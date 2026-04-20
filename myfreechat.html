@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Free Chat</title>
+    <style type="text/css">body {
+        background-color: aliceblue;
+        font-family: sans-serif;
+    }
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .chatbox {
+        border: 1px solid white;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    .chat-message {
+        background-color: green;
+        padding: 5px 10px;
+        border-radius: 10px;
+        display: inline-block;
+        margin-bottom: 10px;
+        max-width: 50px;
+    }
+
+    .chat-message.right {
+        background-color: #dcf8c6;
+        float: right;
+        width: 50px;
+    }
+
+    .message-text {
+        margin: 0;
+        font-size: 10px;
+    }
+    
+    .message-time {
+        display: block;
+        font-size: 12px;
+        text-align: right;
+        margin-top: 5px;
+    }
+
+    .chat-form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #ccc;
+        padding: 10px;
+    }
+
+    .chat-form input {
+        flex-grow: 1;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+    .chat-form button {
+        background-color: #075e54;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .chat-form button:hover {
+        background-color: #128c7e;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="chatbox">
+            <div class="chat-message">
+                <p class="message-text">Hello!</p>
+                <span class="massage-time"10:00 AM></span>
+            </div>
+            <div class="chat-message right">
+                <p class="message-text">Hi there!</p>
+                <span class="message-time"10:01 AM></span>
+            </div>
+        </div>
+        <form class="chat-form">
+            <input type="text" placeholder="Type your message">
+            <button type="click to submit">Send</button>
+            
+
+
+        </form>
+    </div>
+    
+</body>
+</html>
